@@ -1,6 +1,6 @@
 # ✅React Todo
 
-Aplicação de lista de tarefas desenvolvida com React, que permite criar, concluir e deletar tarefas com persistência de dados via API local.
+Aplicação de lista de tarefas desenvolvida com React, que permite criar, concluir e deletar tarefas com persistência de dados via API local. O projeto implementa as quatro operações de CRUD completo (Creat, Read, Update e Delete) utilizando uma API REST simulada com json-server.
 
 # ✨Funcionalidades
 
