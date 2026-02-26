@@ -1,3 +1,65 @@
+# ✅React Todo
+
+Aplicação de lista de tarefas desenvolvida com React, que permite criar, concluir e deletar tarefas com persistência de dados via API local.
+
+# ✨Funcionalidades
+
+Adicionar tarefas com título e duração estimada
+
+Marcar tarefas como concluídas (e desmarcar)
+
+Deletar tarefas
+
+Persistência de dados via json-server (API REST local)
+
+Estado de carregamento enquanto os dados são buscados
+
+# 🛠️Tecnologias
+
+React
+
+React Icons - ícones de ação (concluir e deletar)
+
+json-server - API REST simulada para persistência local
+
+# 🚀Como Rodar o Projeto
+
+Pré-requisitos
+
+Node.js instalado
+
+npm ou yarn
+
+# Instalação
+
+Clone o repositório
+
+git clone https://github.com/BrunoHenrique128/seu-repositorio.git
+
+Entre na pasta do projeto
+
+cd react-todo
+
+Instale as dependências
+
+npm install
+
+Rodando a aplicação
+
+O projeto precisa de dois terminais rodando ao mesmo tempo: um para o json-server e outro para o React.
+
+# Terminal 1 — inicia a API local na porta 3000
+
+npx json-server --watch db.json --port 3000
+
+# Terminal 2 — inicia a aplicação React
+
+npm start
+
+Acesse no navegador: http://localhost:3001
+
+Atenção: o json-server precisa estar rodando para que as tarefas sejam carregadas e salvas corretamente.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
